@@ -36,9 +36,99 @@ Deploy the website.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="todo-container">
+    <h1>Todo List</h1>
+    <input type="text" id="task-input" placeholder="Enter a task..." />
+    <button id="add-task">Add Task</button>
+    <ul id="task-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+/* Add to or replace existing App.css */
+
+.todo-container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 12px;
+    margin-left: 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 25px;
+  }
+  
+  li {
+    background: #f9f9f9;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .status {
+    font-weight: bold;
+    color: #333;
+  }
+  
+```
 
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/9a692784-6218-4bf8-86b1-c5165b734fa2)
+
 
 
 ## RESULT
