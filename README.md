@@ -127,7 +127,8 @@ Upload to GitHub Pages for free hosting.
 
 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/fb16952e-675a-4721-96b9-f46e285e665b)
+![image](https://github.com/user-attachments/assets/eb4f0749-1f10-4b5e-bb77-aba7864a5ff5)
+
 
 
 
